@@ -1,0 +1,29 @@
+.GalleryImage {
+  border: 2px solid #eee;
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+  box-shadow: 0 2px 3px #aaa;
+  margin: 5px;
+}
+
+.GalleryImage img {
+  width: 140px;
+  height: auto;
+  max-height: 80px;
+  margin: 9px;
+  box-sizing: border-box;
+}
+
+@media(min-width: 750px) {
+  .GalleryImage {
+    margin: 20px;
+    width: 300px;
+    height: 150px;
+  }
+
+  .GalleryImage img {
+    width: 200px;
+    max-height: 130px;
+  }
+}
